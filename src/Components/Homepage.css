@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.MainTitle {
+  font-family: "Limelight", cursive;
+  font-size: 4em;
+  text-align: center;
+}
+.subtitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #ff0057;
+}
