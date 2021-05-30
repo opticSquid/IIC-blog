@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+.Articletitle {
+  /* font-family: "Noto Sans JP", sans-serif; */
+  /* font-family: "Sigmar One", cursive; */
+  font-family: "Merriweather", serif;
+  color: #ff0057;
+  text-align: center;
+}

@@ -3,10 +3,10 @@ const LightTheme = createMuiTheme({
   palette: {
     type: "light",
     primary: {
-      main: "#fafafa",
+      main: "#f5f5f5",
     },
     secondary: {
-      main: "#263238",
+      main: "#ff0057",
     },
   },
 });
