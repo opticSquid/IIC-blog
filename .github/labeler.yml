@@ -1,0 +1,16 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+# Add assets label to any changes in the asset folder
+assets:
+- src/assets/**
+# Add app.js label to any change in app.js
+app.js:
+- any: ['src/app.js']
+# Add Dependecy Changed label to any change in package.json file
+package.json:
+- src/package.json
+# Add 'src` label to any change to *.js files as long as the `main.js` hasn't changed
+src:
+- any: ['src/**']
+# all: ['!src/main.js']
