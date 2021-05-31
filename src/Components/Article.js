@@ -1,4 +1,4 @@
-import { Grid,  Typography, makeStyles } from "@material-ui/core";
+import { Grid,  Typography, makeStyles, useMediaQuery } from "@material-ui/core";
 import { useParams } from "react-router-dom";
 import { Data } from "./DataArray";
 import "./Article.css";
@@ -16,6 +16,7 @@ function Article() {
   };
   const classes = useStyles();
   let bgURL = article()?.BannerURL;
+  const mediaQuery = useMediaQuery("(min-width:600px)");
   const bannerStyle = {
     width: "100%",
     height: "60vh",
@@ -31,7 +32,7 @@ function Article() {
           <Grid container
             direction="column"
             justify="center"
-            alignItems="center" className={classes.tint}>
+            alignItems="center" className={mediaQuery ? classes.tint : classes.tintM}>
             <Typography variant="h4" className={classes.title}>
               {article().Title}
             </Typography>
@@ -55,7 +56,7 @@ function Article() {
         <Grid item xs={12} className={classes.body}>
           {/* Setting inner HTML treating article.Body as a HTML document. */}
           
-          <Typography className={classes.content} variant="subtitle2" dangerouslySetInnerHTML={{__html:article().Body}} />
+          <Typography className={mediaQuery ? classes.content : classes.contentM} variant="subtitle2" dangerouslySetInnerHTML={{__html:article().Body}} />
         </Grid>
       </Grid>
     </div>
@@ -92,6 +93,13 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft : theme.spacing(6),
     paddingRight : theme.spacing(6),
   },
+  tintM:{
+    width: "100%",
+    height: "100%",
+    backgroundColor : "rgba(0,0,0,.7)",
+    paddingLeft : theme.spacing(3),
+    paddingRight : theme.spacing(3),
+  },
   title:{
     fontFamily : "Montserrat ,sans-serif",
     color : grey[300],
@@ -106,5 +114,12 @@ const useStyles = makeStyles((theme) => ({
     paddingRight : theme.spacing(13),
     fontFamily : "Montserrat ,sans-serif",
     fontSize : "1.2rem",
+  },
+  contentM : {
+    padding : theme.spacing(3),
+    paddingLeft : theme.spacing(4),
+    paddingRight : theme.spacing(4),
+    fontFamily : "Montserrat ,sans-serif",
+    fontSize : "1rem",
   }
 }));
