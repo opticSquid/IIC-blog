@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
 #mainTitle1 {
   font-family: "Limelight", cursive;
   font-size: 6em;
@@ -16,10 +21,69 @@
   text-align: center;
   color: #ff0057;
 }
+
+#mainTitle1_M {
+  font-family: "Limelight", cursive;
+  white-space: nowrap;
+  font-size: 2em;
+  text-align: center;
+  margin-top:1em;
+}
+#mainTitle2_M {
+  font-family: "Limelight", cursive;
+  font-size: 2em;
+  text-align: center;
+}
+#subtitle_M {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4em;
+  color: #ff0057;
+  text-align: center;
+}
+
+@media screen and (min-width:735px) and (max-width:1105px) {
+  #mainTitle1 {
+    font-family: "Limelight", cursive;
+    font-size: 4em;
+    text-align: center;
+  }
+  #mainTitle2 {
+    font-family: "Limelight", cursive;
+    font-size: 4em;
+    text-align: center;
+  }
+  #subtitle {
+    font-family: "Dancing Script", cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #ff0057;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:735px) {
+  #mainTitle1 {
+    font-family: "Limelight", cursive;
+    font-size: 3em;
+    text-align: center;
+  }
+  #mainTitle2 {
+    font-family: "Limelight", cursive;
+    font-size: 3em;
+    text-align: center;
+  }
+  #subtitle {
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #ff0057;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #mainTitle1 {
     font-size: 2em;
     text-align: center;
+    margin-top:1em;
   }
   #mainTitle2 {
     font-size: 2em;
@@ -27,5 +91,19 @@
   }
   #subtitle {
     font-size: 2em;
+  }
+}
+@media screen and (max-width: 400px) {
+  #mainTitle1 {
+    font-size: 1.7em;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #mainTitle2 {
+    font-size: 1.7em;
+    text-align: center;
+  }
+  #subtitle {
+    font-size: 1.5em;
   }
 }

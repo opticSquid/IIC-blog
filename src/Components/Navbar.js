@@ -4,6 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Logo from "../Images/Logo1.png";
+import './About.css';
 import {
   useMediaQuery,
   Hidden,
@@ -45,24 +46,27 @@ export default function Navbar() {
               <MenuIcon />
             </IconButton>
           </Hidden>
-          <img
-            src={Logo}
-            alt="IIC - Blog logo"
-            className={mediaQuery ? classes.logoImage : classes.logoImage_M}
-          />
-          <Typography
-            variant={mediaQuery ? "h4" : "h6"}
-            color="inherit"
-            className={classes.title}
-          >
-            IIC - Blog
-          </Typography>
+          <a href="/">
+            <img
+              src={Logo}
+              alt="IIC - Blog logo"
+              className={mediaQuery ? classes.logoImage : classes.logoImage_M}
+            />
+          </a>
+            <Typography
+              variant={mediaQuery ? "h4" : "h6"}
+              color="inherit"
+              className={classes.title}
+            >
+              <a href="/" className="iic_blog">IIC - Blog</a>
+            </Typography>
+          
           <Hidden smDown>
             <Typography
               variant={mediaQuery ? "h6" : "subtitle2"}
               className={classes.otherLinks}
             >
-              About Us
+              <a href="/about" className="about_us">About Us</a>
             </Typography>
           </Hidden>
         </Toolbar>
@@ -87,7 +91,7 @@ export default function Navbar() {
         </div>
         <List>
           <ListItem>
-            <ListItemText>About Us</ListItemText>
+            <ListItemText><a href="/about" className="mobile_about_us">About Us</a></ListItemText>
           </ListItem>
         </List>
       </Drawer>

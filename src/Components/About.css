@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.main_about {
+    max-width: 70em;
+    margin: 4em auto;
+}
+
+#about {
+  font-family: "Varela Round", sans-serif;
+  color: rgb(48, 46, 46);
+  line-height: 1.5em;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2em;
+  margin: 4em 0;
+}
+
+.logos img {
+  max-width: 12em;
+  max-height: 12em;
+  object-fit: contain;
+
+}
+
+
+.contributors_heading {
+    margin-bottom:1em;
+    text-align: center;
+}
+
+.contributors_profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contributors {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1 1 5em;
+  margin-top: 2em;
+}
+
+.contributors img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 2px solid #5600e7;
+  object-fit: cover;
+}
+
+.position {
+    max-width: 10em;
+}
+
+#rohit {
+  background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iic_blog,
+.about_us,
+.mobile_about_us {
+    color:black;
+}
+
+@media screen and (max-width: 1018px) {
+  #about{
+    font-size: 1.2rem;
+    margin:2em 4em;
+  }
+
+  .logos img {
+    max-width: 10em;
+    max-height: 10em;
+  }
+
+  .contributors img {
+    max-width: 6em;
+    max-height: 6em;
+  }
+
+  .name,
+  .position {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #about {
+    font-size: 0.8rem;
+    margin:2em 4em;
+  }
+  .logos img {
+    max-width: 5em;
+    max-height: 5em;
+  }
+
+  .contributors img {
+    max-width: 4em;
+    max-height: 4em;
+  }
+}
