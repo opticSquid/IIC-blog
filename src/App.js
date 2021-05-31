@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import LandingArt from "./Components/LandingArt";
 import ArticlesList from "./Components/ArticlesList";
 import Article from "./Components/Article";
+import About from "./Components/About";
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/articles/:title">
             <Article />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Redirect to="/" />
         </Switch>
