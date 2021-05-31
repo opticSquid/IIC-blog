@@ -12,15 +12,15 @@ function HomePage() {
       className={mediaQuery ? classes.content : classes.content_M}
     >
       <Grid item xs={6}>
-        <Typography variant="h3" id="mainTitle1" className={mediaQuery1 ? classes.title1 : classes.title1_M}>
+        <Typography variant="h3" id={mediaQuery1 ?"mainTitle1":"mainTitle1_M"} className={mediaQuery ? classes.title1 : classes.title1_M}>
           Where ideas
         </Typography>
-        <Typography variant="h3" id= "mainTitle2" className={mediaQuery1 ? classes.title2 : classes.title2_M}>
+        <Typography variant="h3" id={mediaQuery1 ?"mainTitle2":"mainTitle2_M"} className={mediaQuery ? classes.title2 : classes.title2_M}>
           come
         </Typography>
         <Typography
           variant="h5"
-          id="subtitle"
+          id={mediaQuery1 ?"subtitle":"subtitle_M"}
           className={mediaQuery ? classes.sub : classes.sub_M}
         >
           ~ Through life
@@ -50,26 +50,26 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(10),
   },
   title1_M: {
-    marginTop: theme.spacing(1),
+    marginTop: theme.spacing(8),
   },
   title2: {
     marginTop: theme.spacing(5),
   },
   title2_M: {
-    marginTop: theme.spacing(0.5),
+    marginTop: theme.spacing(5),
   },  
   sub: {
     marginTop: theme.spacing(10),
   },
   sub_M: {
-    marginTop: theme.spacing(0.4),
+    marginTop: theme.spacing(6),
   },
   art: {
     width: "100%",
   },
   art_M: {
     position: "absolute",
-    top: 80,
+    top: 75,
     right: -35,
     width: 300,
   },
