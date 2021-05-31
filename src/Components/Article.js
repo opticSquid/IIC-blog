@@ -31,7 +31,7 @@ function Article() {
           </Grid>
           
         </div>
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <Typography variant="h6" className="Articletitle">
             {article().Title}
           </Typography>
@@ -41,11 +41,11 @@ function Article() {
           <Typography variant="body1" className={classes.author}>
             - {article().Author}
           </Typography>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} className={classes.body}>
           {/* Setting inner HTML treating article.Body as a HTML document. */}
           
-          <Typography variant="subtitle2" dangerouslySetInnerHTML={{__html:article().Body}} />
+          <Typography className={classes.content} variant="subtitle2" dangerouslySetInnerHTML={{__html:article().Body}} />
         </Grid>
       </Grid>
     </div>
@@ -83,10 +83,18 @@ const useStyles = makeStyles((theme) => ({
     paddingRight : theme.spacing(6),
   },
   title:{
-    fontFamily : "Montserrat",
+    fontFamily : "Montserrat ,sans-serif",
     color : grey[300],
     fontWeight : 500,
     textAlign : "center",
+    textTransform: "capitalize"
     // color : "#fff",
+  },
+  content : {
+    padding : theme.spacing(3),
+    paddingLeft : theme.spacing(13),
+    paddingRight : theme.spacing(13),
+    fontFamily : "Montserrat ,sans-serif",
+    fontSize : "1.2rem",
   }
 }));
