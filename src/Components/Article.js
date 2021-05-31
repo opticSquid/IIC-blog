@@ -1,8 +1,10 @@
-import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
+import { Grid,  Typography, makeStyles } from "@material-ui/core";
 import { useParams } from "react-router-dom";
 import { Data } from "./DataArray";
 import "./Article.css";
 import { grey } from "@material-ui/core/colors";
+
+
 function Article() {
   const { title } = useParams();
   const filter = (article) => {
@@ -12,12 +14,20 @@ function Article() {
     let toWrite = Data.filter(filter);
     return toWrite[0];
   };
-  console.log(article());
   const classes = useStyles();
+  let bgURL = article()?.BannerURL;
+  const bannerStyle = {
+    width: "100%",
+    height: "60vh",
+    backgroundImage : `url(${bgURL})`,
+    backgroundRepeat : "no-repeat",
+    backgroundSize : "cover",
+    backgroundPosition : "center",
+  }
   return (
     <div className={classes.root}>
       <Grid container spacing={1}>
-        <div className={classes.banner}>
+        <div style={bannerStyle} className={classes.banner}>
           <Grid container
             direction="column"
             justify="center"
@@ -53,7 +63,6 @@ function Article() {
 }
 
 export default Article;
-
 const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: theme.spacing(1),
@@ -67,14 +76,15 @@ const useStyles = makeStyles((theme) => ({
   body: {
     textAlign: "justify",
   },
-  banner:{
-    width: "100%",
-    height: "60vh",
-    backgroundImage : "url('https://source.unsplash.com/random')",
-    backgroundRepeat : "no-repeat",
-    backgroundSize : "cover",
-    backgroundPosition : "center",
-  },
+  // banner:{
+  //   width: "100%",
+  //   height: "60vh",
+  //    // backgroundImage : "url('https://source.unsplash.com/random')",
+  //   //  backgroundImage : bgURL,
+  //   backgroundRepeat : "no-repeat",
+  //   backgroundSize : "cover",
+  //   backgroundPosition : "center",
+  // },
   tint:{
     width: "100%",
     height: "100%",
