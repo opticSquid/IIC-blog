@@ -54,7 +54,7 @@ export default function Navbar() {
               style={{ textDecoration: "none" }}
               className={classes.title}
             >
-              - Blog
+              Blog
             </Link>
           </Typography>
 
