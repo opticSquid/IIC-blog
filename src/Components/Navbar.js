@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import Logo from "../Images/Logo1.png";
+import Logo from "../Images/IIClogo2.png";
 import "./About.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "@material-ui/core";
@@ -50,7 +50,7 @@ export default function Navbar() {
             className={classes.title}
           >
             <Link to="/" style={{ textDecoration: "none" }} className={classes.title}>
-              IIC - Blog
+              - Blog
             </Link>
           </Typography>
 
