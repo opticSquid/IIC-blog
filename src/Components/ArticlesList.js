@@ -14,6 +14,16 @@ function Articles() {
   const classes = useStyles();
   // False for mobile phones
   const mediaQuery = useMediaQuery("(min-width:600px)");
+  const bgPic = (article) => {
+    const style = {
+      backgroundImage : `url(${article?.BannerURL})`,
+      backgroundRepeat : "no-repeat",
+      backgroundSize : "cover",
+      backgroundPosition : "center",
+      
+    }
+    return style
+  }
   return (
     <Grid container >
       <Grid
@@ -42,7 +52,8 @@ function Articles() {
               to={`/articles/${article.Title}`}
               style={{ textDecoration: "none", textAlign: "center", display: "inherit" }}
             >
-              <Paper elevation={3} className={classes.paper}>
+              <Paper style={bgPic(article)}  elevation={3} className={classes.paper}>
+                <div  className={classes.tint}>
                 <Typography
                   variant="h4"
                   className={
@@ -63,6 +74,7 @@ function Articles() {
                     {article.Body}
                   </Typography>
                 </Box>
+                  </div>
               </Paper>
             </Link>
           </Grid>
@@ -79,7 +91,8 @@ const useStyles = makeStyles((theme) => ({
   title: {
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(3),
-    color: grey[500],
+    // color: grey[500],
+    color: "#FE9000",
     textAlign: "center"
   },
   title_M: {
@@ -96,21 +109,33 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   paper: {
+    
+  },
+  tint : {
+    width: "100%",
+    height: "100%",
+    backgroundColor : "rgba(0,0,0,.6)",
     padding: theme.spacing(6),
     paddingTop : theme.spacing(13),
     paddingBottom: theme.spacing(13),
+    backdropFilter: "blur(18px)",
+      '&:hover': {
+        backdropFilter: "blur(2px)",
+        transition : ".4s",
+    }
   },
   articlTitle: {
     maxHeight: theme.spacing(6),
     overflow: "hidden",
     color: theme.palette.secondary.main,
+    overflow: "hidden",
     // marginBottom : theme.spacing(1)
   },
   articlTitle_M: {
     maxHeight: theme.spacing(10),
     overflow: "hidden",
     color: theme.palette.secondary.main,
-    marginBottom : theme.spacing(1)
+    marginBottom : theme.spacing(1),
   },
   article: {
     maxHeight: theme.spacing(6),
@@ -122,11 +147,13 @@ const useStyles = makeStyles((theme) => ({
   },
   author : {
     marginBottom : theme.spacing(3),
-    color : theme.palette.secondary.light
+    color : theme.palette.secondary.light,
+    
   },
   desc: {
     // color: "#ff8fab",
-    color: grey["A200"],
+    // color: grey["A200"],
+    color : "#f5f5f5"
   },
   wrapperGrid : {
     // border : "2px solid green",
