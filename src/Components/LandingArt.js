@@ -39,24 +39,28 @@ const useStyles = makeStyles((theme) => ({
   content: {
     width: "100%",
     height: "60vh",
-    backgroundImage: "linear-gradient(75deg, #ffffff 60%, #ff0057 40%)",
+    backgroundImage: "linear-gradient(75deg, #2274A5 60%, #ff0057 40%)",
   },
   content_M: {
     width: "100%",
     height: "30vh",
-    backgroundImage: "linear-gradient(75deg, #ffffff 60%, #ff0057 40%)",
+    backgroundImage: "linear-gradient(75deg, #2274A5 60%, #ff0057 40%)",
   },
   title1: {
     marginTop: theme.spacing(10),
+    color: "#EDF7F6",
   },
   title1_M: {
     marginTop: theme.spacing(8),
+    color: "#EDF7F6",
   },
   title2: {
     marginTop: theme.spacing(5),
+    color: "#EDF7F6",
   },
   title2_M: {
     marginTop: theme.spacing(5),
+    color: "#EDF7F6",
   },  
   sub: {
     marginTop: theme.spacing(10),
