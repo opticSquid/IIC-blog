@@ -27,7 +27,7 @@ body {
   white-space: nowrap;
   font-size: 2em;
   text-align: center;
-  margin-top:1em;
+  margin-top: 1em;
 }
 #mainTitle2_M {
   font-family: "Limelight", cursive;
@@ -41,7 +41,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width:735px) and (max-width:1105px) {
+@media screen and (min-width: 735px) and (max-width: 1105px) {
   #mainTitle1 {
     font-family: "Limelight", cursive;
     font-size: 4em;
@@ -60,7 +60,7 @@ body {
   }
 }
 
-@media screen and (min-width:600px) and (max-width:735px) {
+@media screen and (min-width: 600px) and (max-width: 735px) {
   #mainTitle1 {
     font-family: "Limelight", cursive;
     font-size: 3em;
@@ -83,7 +83,7 @@ body {
   #mainTitle1 {
     font-size: 2em;
     text-align: center;
-    margin-top:1em;
+    margin-top: 1em;
   }
   #mainTitle2 {
     font-size: 2em;

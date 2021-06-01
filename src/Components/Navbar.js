@@ -49,7 +49,11 @@ export default function Navbar() {
             variant={mediaQuery ? "h4" : "h6"}
             className={classes.title}
           >
-            <Link to="/" style={{ textDecoration: "none" }} className={classes.title}>
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              className={classes.title}
+            >
               - Blog
             </Link>
           </Typography>

@@ -9,9 +9,9 @@ const LightTheme = createMuiTheme({
     secondary: {
       main: "#ff0057",
     },
-    info:{
+    info: {
       main: "#2275a5",
-    }
+    },
   },
 });
 export default LightTheme;
