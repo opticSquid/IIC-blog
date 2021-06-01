@@ -15,7 +15,7 @@ function Articles() {
   // False for mobile phones
   const mediaQuery = useMediaQuery("(min-width:600px)");
   return (
-    <Grid container>
+    <Grid container >
       <Grid
         item
         xs={12}
@@ -26,6 +26,9 @@ function Articles() {
         </Typography>
         <ListAltIcon style={{ fontSize: 30, display: "inline" }} />
       </Grid>
+      <Grid  container xs={12}   className={classes.wrapperGrid}  direction="row"
+  justify="center"
+  alignItems="center">
       {Data.map((article, idx) => {
         return (
           <Grid
@@ -37,7 +40,7 @@ function Articles() {
           >
             <Link
               to={`/articles/${article.Title}`}
-              style={{ textDecoration: "none", display: "inherit" }}
+              style={{ textDecoration: "none", textAlign: "center", display: "inherit" }}
             >
               <Paper elevation={3} className={classes.paper}>
                 <Typography
@@ -46,8 +49,12 @@ function Articles() {
                     mediaQuery ? classes.articlTitle : classes.articlTitle_M
                   }
                 >
-                  {article.Title}
+                  {article.Title} 
+                  
                 </Typography>
+                <Typography variant="body1" className={classes.author}>
+                    - {article.Author}
+                  </Typography>
                 <Box
                   component="div"
                   className={mediaQuery ? classes.article : classes.article_M}
@@ -61,6 +68,7 @@ function Articles() {
           </Grid>
         );
       })}
+      </Grid>
     </Grid>
   );
 }
@@ -70,32 +78,39 @@ export default Articles;
 const useStyles = makeStyles((theme) => ({
   title: {
     marginTop: theme.spacing(3),
-    marginLeft: theme.spacing(1),
+    marginBottom: theme.spacing(3),
     color: grey[500],
+    textAlign: "center"
   },
   title_M: {
-    marginTop: theme.spacing(1),
-    marginLeft: theme.spacing(1),
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
     color: grey[500],
+    textAlign: "center"
   },
   root: {
     margin: theme.spacing(2),
+    // border : "1px solid red",
   },
   root_M: {
     margin: theme.spacing(1),
   },
   paper: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(6),
+    paddingTop : theme.spacing(13),
+    paddingBottom: theme.spacing(13),
   },
   articlTitle: {
     maxHeight: theme.spacing(6),
     overflow: "hidden",
     color: theme.palette.secondary.main,
+    // marginBottom : theme.spacing(1)
   },
   articlTitle_M: {
     maxHeight: theme.spacing(10),
     overflow: "hidden",
     color: theme.palette.secondary.main,
+    marginBottom : theme.spacing(1)
   },
   article: {
     maxHeight: theme.spacing(6),
@@ -105,8 +120,15 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: theme.spacing(6),
     overflow: "hidden",
   },
+  author : {
+    marginBottom : theme.spacing(3),
+    color : theme.palette.secondary.light
+  },
   desc: {
     // color: "#ff8fab",
     color: grey["A200"],
   },
+  wrapperGrid : {
+    // border : "2px solid green",
+  }
 }));
