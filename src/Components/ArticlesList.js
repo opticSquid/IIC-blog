@@ -128,7 +128,6 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: theme.spacing(6),
     overflow: "hidden",
     color: theme.palette.secondary.main,
-    overflow: "hidden",
     // marginBottom : theme.spacing(1)
   },
   articlTitle_M: {
