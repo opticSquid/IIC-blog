@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba13fb66-860c-4f55-b52e-03c2ce53215a/deploy-status)](https://app.netlify.com/sites/infallible-pike-e17876/deploys)
+[![DeepSource](https://deepsource.io/gh/soumalyatheking22012001/IIC-blog.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/soumalyatheking22012001/IIC-blog/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/soumalyatheking22012001/IIC-blog.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/soumalyatheking22012001/IIC-blog/?ref=repository-badge)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
