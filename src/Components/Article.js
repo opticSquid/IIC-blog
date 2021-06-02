@@ -1,9 +1,15 @@
-import { Grid,  Typography, makeStyles, useMediaQuery } from "@material-ui/core";
+import { useState } from "react";
+import {
+  Grid,
+  Typography,
+  makeStyles,
+  useMediaQuery,
+  Zoom,
+} from "@material-ui/core";
 import { useParams } from "react-router-dom";
 import { Data } from "./DataArray";
 import "./Article.css";
 import { grey } from "@material-ui/core/colors";
-
 
 function Article() {
   const { title } = useParams();
@@ -20,29 +26,33 @@ function Article() {
   const bannerStyle = {
     width: "100%",
     height: "60vh",
-    backgroundImage : `url(${bgURL})`,
-    backgroundRepeat : "no-repeat",
-    backgroundSize : "cover",
-    backgroundPosition : "center",
-  }
+    backgroundImage: `url(${bgURL})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+  const [Animate] = useState(true);
   return (
-    <div className={classes.root}>
-      <Grid container spacing={1}>
-        <div style={bannerStyle} className={classes.banner}>
-          <Grid container
-            direction="column"
-            justify="center"
-            alignItems="center" className={mediaQuery ? classes.tint : classes.tintM}>
-            <Typography variant="h4" className={classes.title}>
-              {article().Title}
-            </Typography>
-          <Typography variant="body1" className={classes.author}>
-            - {article().Author}
-          </Typography>
-          </Grid>
-          
-        </div>
-        {/* <Grid item xs={12}>
+    <Zoom in={Animate} timeout={1000}>
+      <div className={classes.root}>
+        <Grid container spacing={1}>
+          <div style={bannerStyle} className={classes.banner}>
+            <Grid
+              container
+              direction="column"
+              justify="center"
+              alignItems="center"
+              className={mediaQuery ? classes.tint : classes.tintM}
+            >
+              <Typography variant="h4" className={classes.title}>
+                {article().Title}
+              </Typography>
+              <Typography variant="body1" className={classes.author}>
+                - {article().Author}
+              </Typography>
+            </Grid>
+          </div>
+          {/* <Grid item xs={12}>
           <Typography variant="h6" className="Articletitle">
             {article().Title}
           </Typography>
@@ -53,13 +63,18 @@ function Article() {
             - {article().Author}
           </Typography>
         </Grid> */}
-        <Grid item xs={12} className={classes.body}>
-          {/* Setting inner HTML treating article.Body as a HTML document. */}
-          
-          <Typography className={mediaQuery ? classes.content : classes.contentM} variant="subtitle2" dangerouslySetInnerHTML={{__html:article().Body}} />
+          <Grid item xs={12} className={classes.body}>
+            {/* Setting inner HTML treating article.Body as a HTML document. */}
+
+            <Typography
+              className={mediaQuery ? classes.content : classes.contentM}
+              variant="subtitle2"
+              dangerouslySetInnerHTML={{ __html: article().Body }}
+            />
+          </Grid>
         </Grid>
-      </Grid>
-    </div>
+      </div>
+    </Zoom>
   );
 }
 
@@ -86,40 +101,42 @@ const useStyles = makeStyles((theme) => ({
   //   backgroundSize : "cover",
   //   backgroundPosition : "center",
   // },
-  tint:{
+  tint: {
     width: "100%",
     height: "100%",
-    backgroundColor : "rgba(0,0,0,.7)",
-    paddingLeft : theme.spacing(6),
-    paddingRight : theme.spacing(6),
+    backgroundColor: "rgba(0,0,0,.7)",
+    paddingLeft: theme.spacing(6),
+    paddingRight: theme.spacing(6),
   },
-  tintM:{
+  tintM: {
     width: "100%",
     height: "100%",
-    backgroundColor : "rgba(0,0,0,.7)",
-    paddingLeft : theme.spacing(3),
-    paddingRight : theme.spacing(3),
+    backgroundColor: "rgba(0,0,0,.7)",
+    paddingLeft: theme.spacing(3),
+    paddingRight: theme.spacing(3),
   },
-  title:{
-    fontFamily : "Montserrat ,sans-serif",
-    color : grey[300],
-    fontWeight : 500,
-    textAlign : "center",
-    textTransform: "capitalize"
+  title: {
+    fontFamily: "Montserrat ,sans-serif",
+    color: grey[300],
+    fontWeight: 500,
+    textAlign: "center",
+    textTransform: "capitalize",
     // color : "#fff",
   },
-  content : {
-    padding : theme.spacing(3),
-    paddingLeft : theme.spacing(13),
-    paddingRight : theme.spacing(13),
-    fontFamily : "Montserrat ,sans-serif",
-    fontSize : "1.2rem",
+  content: {
+    padding: theme.spacing(3),
+    paddingLeft: theme.spacing(13),
+    paddingRight: theme.spacing(13),
+    fontFamily: "Montserrat ,sans-serif",
+    fontSize: "1.2rem",
+    color: theme.palette.info.main,
   },
-  contentM : {
-    padding : theme.spacing(3),
-    paddingLeft : theme.spacing(4),
-    paddingRight : theme.spacing(4),
-    fontFamily : "Montserrat ,sans-serif",
-    fontSize : "1rem",
-  }
+  contentM: {
+    padding: theme.spacing(3),
+    paddingLeft: theme.spacing(4),
+    paddingRight: theme.spacing(4),
+    fontFamily: "Montserrat ,sans-serif",
+    fontSize: "1rem",
+    color: theme.palette.info.main,
+  },
 }));
