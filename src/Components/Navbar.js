@@ -101,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   logoImage: {
-    paddingTop : theme.spacing(1),
+    paddingTop: theme.spacing(1),
     objectFit: "contain",
     height: theme.spacing(10),
   },
