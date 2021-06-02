@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import {
   Paper,
   Grid,
@@ -6,6 +6,7 @@ import {
   makeStyles,
   useMediaQuery,
   Box,
+  Grow,
   // Grow,
 } from "@material-ui/core";
 import { grey } from "@material-ui/core/colors";
@@ -26,6 +27,7 @@ function Articles() {
     };
     return style;
   };
+  const [Animate] = useState(true);
   return (
     <Grid container>
       <Grid
@@ -48,52 +50,56 @@ function Articles() {
       >
         {Data.map((article, idx) => {
           return (
-            <Grid
-              item
-              xs={12}
-              md={5}
-              className={mediaQuery ? classes.root : classes.root_M}
-              key={idx}
-            >
-              <Link
-                to={`/articles/${article.Title}`}
-                style={{
-                  textDecoration: "none",
-                  textAlign: "center",
-                  display: "inherit",
-                }}
+            <Grow in={Animate} timeout={2000}>
+              <Grid
+                item
+                xs={12}
+                md={5}
+                className={mediaQuery ? classes.root : classes.root_M}
+                key={idx}
               >
-                <Paper
-                  style={bgPic(article)}
-                  elevation={3}
-                  className={classes.paper}
+                <Link
+                  to={`/articles/${article.Title}`}
+                  style={{
+                    textDecoration: "none",
+                    textAlign: "center",
+                    display: "inherit",
+                  }}
                 >
-                  <div className={classes.tint}>
-                    <Typography
-                      variant="h4"
-                      className={
-                        mediaQuery ? classes.articlTitle : classes.articlTitle_M
-                      }
-                    >
-                      {article.Title}
-                    </Typography>
-                    <Typography variant="body1" className={classes.author}>
-                      - {article.Author}
-                    </Typography>
-                    <Box
-                      component="div"
-                      className={
-                        mediaQuery ? classes.article : classes.article_M
-                      }
-                    >
-                      <Typography variant="body1" className={classes.desc}>
-                        {article.Body}
+                  <Paper
+                    style={bgPic(article)}
+                    elevation={3}
+                    className={classes.paper}
+                  >
+                    <div className={classes.tint}>
+                      <Typography
+                        variant="h4"
+                        className={
+                          mediaQuery
+                            ? classes.articlTitle
+                            : classes.articlTitle_M
+                        }
+                      >
+                        {article.Title}
                       </Typography>
-                    </Box>
-                  </div>
-                </Paper>
-              </Link>
-            </Grid>
+                      <Typography variant="body1" className={classes.author}>
+                        - {article.Author}
+                      </Typography>
+                      <Box
+                        component="div"
+                        className={
+                          mediaQuery ? classes.article : classes.article_M
+                        }
+                      >
+                        <Typography variant="body1" className={classes.desc}>
+                          {article.Body}
+                        </Typography>
+                      </Box>
+                    </div>
+                  </Paper>
+                </Link>
+              </Grid>
+            </Grow>
           );
         })}
       </Grid>
