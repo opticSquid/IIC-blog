@@ -2,8 +2,8 @@
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Logo from "../Images/IIClogo2.png";
+// import Typography from "@material-ui/core/Typography";
+import Logo from "../Images/iic-blog-1.png";
 import "./About.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "@material-ui/core";
@@ -45,7 +45,7 @@ export default function Navbar() {
               className={mediaQuery ? classes.logoImage : classes.logoImage_M}
             />
           </Link>
-          <Typography
+          {/* <Typography
             variant={mediaQuery ? "h4" : "h6"}
             className={classes.title}
           >
@@ -56,7 +56,7 @@ export default function Navbar() {
             >
               Blog
             </Link>
-          </Typography>
+          </Typography> */}
 
           {/* <Hidden smDown>
             <Typography
@@ -101,7 +101,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   logoImage: {
-    objectFit: "cover",
+    paddingTop : theme.spacing(1),
+    objectFit: "contain",
     height: theme.spacing(10),
   },
   logoImage_M: {
