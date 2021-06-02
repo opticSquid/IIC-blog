@@ -1,7 +1,7 @@
 name: "Pull Request Labeler"
 on:
   pull_request:
-    branches: [main,dev]
+    branches: [main]
 jobs:
   Label:
     runs-on: ubuntu-latest
