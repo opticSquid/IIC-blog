@@ -86,8 +86,8 @@ function Article() {
           >
             <img src={linkedin} width="20px" height="20px" alt="linkedin"></img>
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
-            <img src={utube} width="20px" height="20px" alt="facebook"></img>
+          <a href="https://www.youtube.com/channel/UCnrbFhmXUKnMU2Wzeq-EY6Q" target="_blank" rel="noreferrer">
+            <img src={utube} width="20px" height="20px" alt="youtube"></img>
           </a>
         </div>
       </div>
