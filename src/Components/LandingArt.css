@@ -33,8 +33,18 @@
     align-items: center;
 }
 
+.socialMediaL{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 5em;
+}
+
 .logo{
     transform: scale(0.35);
+    justify-self: flex-start;
 }
 
 .container{
@@ -89,12 +99,29 @@
     font-size: 0.8em;
 }
 
+.socialMediaL a{
+    transition: all 0.2s ease;
+}
+
+.socialMediaL a:hover{
+    transform-origin: center;
+    transform: scale(1.4);
+}
+
 @media only screen and (max-width: 780px) {
     .navbar{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
+        height: 20vh;
+    }
+    .socialMediaL{
+        position: relative;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        top: -4em;
     }
     .container{
         flex-direction: column;

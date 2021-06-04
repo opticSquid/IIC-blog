@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../Images/iic-blog-1.png"
 import {
   Grid,
   Typography,
@@ -6,10 +7,16 @@ import {
   useMediaQuery,
   Zoom,
 } from "@material-ui/core";
-import { useParams } from "react-router-dom";
+import { useParams , Link } from "react-router-dom";
 import { Data } from "./DataArray";
 import "./Article.css";
 import { grey } from "@material-ui/core/colors";
+
+import facebook from "../Images/New folder/facebook.png";
+import insta from "../Images/New folder/insta.png";
+import linkedin from "../Images/New folder/linkedin.png";
+import twitter from "../Images/New folder/twitter_r.png";
+import utube from "../Images/New folder/utube.png";
 
 function Article() {
   const { title } = useParams();
@@ -34,7 +41,32 @@ function Article() {
   const [Animate] = useState(true);
   return (
       <>
-      <h1>Hello</h1>
+      <div className="navArticle">
+            <Link to="/" >
+                <img src={logo} className="articleLogo" alt="default text" style={{ transformOrigin: "left", transform: "scale(0.4)" }}></img>
+            </Link>
+            <div className="socialMediaA" style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-around"
+            }}>
+                <a href="https://www.facebook.com/iictmsl/" target="_blank" rel="noreferrer">
+                    <img src={facebook} width="20px" height="20px" alt="facebook"></img>
+                </a>
+                <a href="https://twitter.com/iictmsl" target="_blank" rel="noreferrer">
+                    <img src={twitter} width="20px" height="20px" alt="twitter"></img>
+                </a>
+                <a href="https://www.instagram.com/iictmsl/" target="_blank" rel="noreferrer">
+                    <img src={insta} width="20px" height="20px" alt="insta"></img>
+                </a>
+                <a href="https://www.linkedin.com/company/iictmsl/" target="_blank" rel="noreferrer">
+                    <img src={linkedin} width="20px" height="20px" alt="linkedin"></img>
+                </a>
+                <a href="#" target="_blank" rel="noreferrer">
+                    <img src={utube} width="20px" height="20px" alt="facebook"></img>
+                </a>
+            </div>
+      </div>
     <Zoom in={Animate} timeout={1000}>
       <div className={classes.root}>
         <Grid container spacing={1}>

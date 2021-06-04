@@ -8,3 +8,43 @@
   color: #ff0057;
   text-align: center;
 }
+
+.navArticle{
+    font-size: 1rem;
+    height: 6em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.socialMediaA a{
+    padding: 0px 10px;
+    transition: all 0.2s ease;
+}
+.socialMediaA a:hover{
+    transform-origin: center;
+    transform: scale(1.4);
+}
+
+.socialMediaA{
+    z-index: 5;
+}
+
+@media only screen and (max-width: 780px) {
+    .navArticle{
+        flex-direction: column;
+    }
+    .socialMediaA{
+        position: relative;
+        top: -5em;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .articleLogo{
+        position: relative;
+        left: 31%;
+        transform: translate(0,-50%);
+    }
+}
