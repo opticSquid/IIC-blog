@@ -1,6 +1,5 @@
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import LightTheme from "./Themes/LightTheme";
-import Navbar from "./Components/Navbar";
 import LandingArt from "./Components/LandingArt";
 import ArticlesList from "./Components/ArticlesList";
 import Article from "./Components/Article";
@@ -16,7 +15,6 @@ function App() {
     <ThemeProvider theme={LightTheme}>
       <CssBaseline />
       <Router>
-        <Navbar />
         <Switch>
           <Route exact path="/">
             <LandingArt />

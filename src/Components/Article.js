@@ -33,6 +33,8 @@ function Article() {
   };
   const [Animate] = useState(true);
   return (
+      <>
+      <h1>Hello</h1>
     <Zoom in={Animate} timeout={1000}>
       <div className={classes.root}>
         <Grid container spacing={1}>
@@ -75,6 +77,7 @@ function Article() {
         </Grid>
       </div>
     </Zoom>
+    </>
   );
 }
 

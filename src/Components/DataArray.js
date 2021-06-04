@@ -400,6 +400,7 @@ export const Data = [
     Title: "VR - How It can impact our lives",
     BannerURL: "https://source.unsplash.com/AHCmAX0k_J4/1600x900",
     Author: "",
+    Type: "TECHNOLOGY",
     Body: `
       Visual reality is the new craze for our generation. Whoever ever watched a VR movie or played a VR game knows that.<br /><br />
       With every passing day, coders are discovering new ways to explore it and newer sectors to apply VR. Take a peek to know how you can expect this awesome technology to change your reality you have always seen!<br /><br />
