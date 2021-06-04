@@ -111,12 +111,16 @@ const HomePage = () => {
               alt="linkedin"
             ></img>
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.youtube.com/channel/UCnrbFhmXUKnMU2Wzeq-EY6Q"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={mobile ? utube1 : utube}
               width="20px"
               height="20px"
-              alt="facebook"
+              alt="youtube"
             ></img>
           </a>
         </div>
