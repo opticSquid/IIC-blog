@@ -91,9 +91,11 @@ function Articles() {
                           mediaQuery ? classes.article : classes.article_M
                         }
                       >
-                        <Typography variant="body1" className={classes.desc}>
-                          {article.Body}
-                        </Typography>
+                        <Typography
+                          variant="body1"
+                          className={classes.desc}
+                          dangerouslySetInnerHTML={{ __html: article.Body }}
+                        />
                       </Box>
                     </div>
                   </Paper>
