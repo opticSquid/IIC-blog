@@ -1,143 +1,143 @@
-:root{
-    --img: url("https://source.unsplash.com/AHCmAX0k_J4/900x500")
+:root {
+  --img: url("https://source.unsplash.com/AHCmAX0k_J4/900x500");
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-.main{
-    position: relative;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    font-size: 1rem;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-}
-
-.background{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    filter: brightness(50%);
+.main {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  font-size: 1rem;
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
-.navbar{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 5em;
-    width: 100%;
-    display: flex;
-    align-items: center;
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
 }
 
-.socialMediaL{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    right: 5em;
+.navbar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-    transform: scale(0.35);
-    justify-self: flex-start;
+.socialMediaL {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 5em;
 }
 
-.container{
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    height:fit-content;
-    width: 100%;
-    display: flex;
-    align-items: center;
+.logo {
+  transform: scale(0.35);
+  justify-self: flex-start;
 }
 
-.data{
-    padding-left: 2em;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    position: relative;
+.container {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.data p{
-    color: white;
-    position: relative;
-    top: -1.2em;
-    font-family: 'Poppins', sans-serif;
+.data {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  position: relative;
 }
 
-.data .type{
-    letter-spacing: 0.1em;
-    font-size: 0.85em;
+.data p {
+  color: white;
+  position: relative;
+  top: -1.2em;
+  font-family: "Poppins", sans-serif;
 }
 
-.data .title{
-    font-size: 2em;
-    line-height: 1.2em;
-    top: -1.5em;
-    font-weight: bolder;
+.data .type {
+  letter-spacing: 0.1em;
+  font-size: 0.85em;
 }
 
-.data .info{
-    top: -5em;
-    padding-right: min(10em,20%);
+.data .title {
+  font-size: 2em;
+  line-height: 1.2em;
+  top: -1.5em;
+  font-weight: bolder;
 }
 
-.data .author{
-    top: -3em;
-    font-size: 0.8em;
+.data .info {
+  top: -5em;
+  padding-right: min(10em, 20%);
 }
 
-.data .date{
-    top: -4.5em;
-    font-size: 0.8em;
+.data .author {
+  top: -3em;
+  font-size: 0.8em;
 }
 
-.socialMediaL a{
-    transition: all 0.2s ease;
+.data .date {
+  top: -4.5em;
+  font-size: 0.8em;
 }
 
-.socialMediaL a:hover{
-    transform-origin: center;
-    transform: scale(1.4);
+.socialMediaL a {
+  transition: all 0.2s ease;
+}
+
+.socialMediaL a:hover {
+  transform-origin: center;
+  transform: scale(1.4);
 }
 
 @media only screen and (max-width: 780px) {
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        height: 20vh;
-    }
-    .socialMediaL{
-        position: relative;
-        width: 100%;
-        left: 0px;
-        right: 0px;
-        top: -4em;
-    }
-    .container{
-        flex-direction: column;
-    }
-    .data .info{
-        top: -5em;
-        padding-right: 2em;
-    }
-    .poster{
-        display: none;
-    }
-    .container{
-        position: relative;
-        display: none;
-    }
-    .main{
-        height: fit-content;
-    }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20vh;
+  }
+  .socialMediaL {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: -4em;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .data .info {
+    top: -5em;
+    padding-right: 2em;
+  }
+  .poster {
+    display: none;
+  }
+  .container {
+    position: relative;
+    display: none;
+  }
+  .main {
+    height: fit-content;
+  }
 }
