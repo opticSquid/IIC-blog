@@ -62,7 +62,7 @@ function Article() {
                 <a href="https://www.linkedin.com/company/iictmsl/" target="_blank" rel="noreferrer">
                     <img src={linkedin} width="20px" height="20px" alt="linkedin"></img>
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/" target="_blank" rel="noreferrer">
                     <img src={utube} width="20px" height="20px" alt="facebook"></img>
                 </a>
             </div>
