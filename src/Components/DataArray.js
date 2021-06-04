@@ -2,13 +2,15 @@ export const Data = [
   {
     Title: "Digital Farming",
     Author: "Rohan Jha",
-    BannerURL: "https://source.unsplash.com/IQVFVH0ajag/1600x900",
+    Tags: "Green Techs",
+    BannerURL: "https://source.unsplash.com/IQVFVH0ajag",
     Body: "Agriculture in India accounts for 17% of the country’s GDP and provides employment to 40%  of the workforce. Yet this sector continues to face problems like an inefficient way of farming,  traditional mindset, overuse of chemical fertilizers and pesticides, etc. BharatAgri is one of the very scarce start-ups that focuses on solving the problems faced by the agricultural sector by the use of cutting-edge technology. The founder of  BharatAgri Sai Gole and Siddhart Dialami hopes to revolutionize the way Indian farmers grow and sell their produce. <br /> <br /> BharatAgri is one of the most innovative start-ups in our country. It provides farmers with smart farming practices and suggestions based on varying conditions and promises to increase their yield. While growing any crop the start-up’s algorithm takes into account more than 30 variables that affect the growth of the crop and provide personalized services. They provide many personalized farming solutions like farm mapping,  water test, fungal test, soil test. This helps them to know the crop which is best suited for that farm and the way to grow the crop. This is extremely profitable for the farmers who before did not have access to this cutting-edge technology. The app developed by them creates a  “dynamic calendar” that tells farmers which and how much seed and fertilizers to use, the quantity of water apply and at what times based on changing climatic conditions. The amount of money spent by the farmers per acre decreases and the amount of profit earned by them increases. They have fewer instances of pests and diseases and the quality of products is also high. <br /> <br />  BharatAgri’s founders were also aware of the technological barriers between them and farmers.  They use SMS and Interactive Voice Responses  (IVR) calls. The mobile application developed by  them is user-friendly and compatible with farmers  who are new to this platform. They also use video service/one on one chat to connect with famers. <br /><br />  BharatAgri is an innovative start-up that aims to  solve the major problems faced by the 140 million  farmers of this country. Besides, there are many industries like banks, farm-to-market companies,  seed manufacturers, etc. who are directly trying to do business with farmers but are limited by the acute shortage of data. BharatAgri connects industries to verifies farmers and reduce inefficiencies. <br /><br />  The start-up is still in its infant years but has a  strong potential. It can help in improving productivity and the value chain of agriculture in  India. Famers who have used their service have  already seen a tenfold increase in their profit. ",
   },
   {
     Title: "AIR-INK ( An Ink From Air Pollution )",
     Author: "Pratyaya Amrit",
-    BannerURL: "https://source.unsplash.com/3q3O3QftPVo/1600x900",
+    Tags: "Sustainable Technology",
+    BannerURL: "https://source.unsplash.com/3q3O3QftPVo",
     Body: `
       Nowadays air pollution becomes a major reason behind several diseases. Air pollution accounts for an estimated 4.2 million deaths per year. It can also cause long term damage to people’s nerves, brains, kidneys, liver and other organs. <br />
       But let’s think about what happens when we create an opportunity from air pollution. An opportunity that brings a positive impact to our earth and thus our life. Air-ink is an ink that is obtained directly from air pollution. It is invented by Anirudh Sharma an MIT graduate. <br /><br />
@@ -41,8 +43,9 @@ export const Data = [
   },
   {
     Title: "A Full Stop to Data-Collection",
-    Author: "Sabyasachi seal",
-    BannerURL: "https://source.unsplash.com/oyXis2kALVg/1600x900",
+    Author: "Sabyasachi Seal",
+    Tags: "Data Privacy and Security",
+    BannerURL: "https://source.unsplash.com/oyXis2kALVg",
     Body: `
     We have always heard that the tech companies like Facebook, Xiaomi, etc have been stealing and collecting our data to store it in their servers. We have also heard that sometimes sensitive user data are leaked on the internet to anonymous people, popularly termed as “data breach”. For example,  people use VPNs so that they can hide their real IP address and also their internet activity from their  ISP. One of the biggest VPN providers is Nord VPN. In 2018, Nord VPN had a data breach in Florida resulting in the leaking of terabytes of data in a month. My device stops any company from collecting the data that the user has not agreed to share and indirectly also stops people’s data from getting leaked during data breaches. This also has the potential to stop website tracking and online fingerprinting. <br /><br />
     <strong>For Broadband Connection: - </strong> <br />
@@ -57,7 +60,8 @@ export const Data = [
   {
     Title: "CENTAURI - Connecting the Unconnected",
     Author: "Vivek Thakur",
-    BannerURL: "https://source.unsplash.com/3InMDrsuYrk/1600x900",
+    Tags: "Enabling Techs",
+    BannerURL: "https://source.unsplash.com/3InMDrsuYrk",
     Body: `A Device that uses a different kind of light to empower those without access to what many people take for granted: Internet Connectivity. <br /><br />
     The Internet can also be accessed through standard wireless technology that has existed for over 100 years and was first used for radios. This technology has saturated in terms of its speed capacity. The technology has reached to an extent on what proportion of speeds it can support.  <br /><br />
     Therefore, the world is slowly moving forward to fiber optic cables to cater to the demand for high-speed connections. However, fiber optic cables are expensive to deploy, as they need to be installed underground, while digging hundreds of kilometres to lay down cables to provide Internet are often costly, the cost of setting up cell towers is no less. There’s a lot of areas in the world that don’t 
@@ -73,7 +77,8 @@ export const Data = [
   {
     Title: "Dyson Sphere",
     Author: "Swastik Dey",
-    BannerURL: "https://source.unsplash.com/yPFLITSS5jA/1600x900",
+    Tags: "Future Techs",
+    BannerURL: "https://source.unsplash.com/yPFLITSS5jA",
     Body: `
     Human history is told by the energy we use. At first, we used our muscles, then we learned to control fire. We industrialized the world using coal & oil and entered the Atomic age when we learned to crack the atom. At each step, we increased our energy harvest to a scale never seen before and advanced as a species. Currently, we are transitioning to renewables and if we’re lucky, fusion energy will become viable in the future. <br /><br />
     As humanity progresses further, if we don’t destroy ourselves or our habitat, we will likely gain control of our entire planet and its resources. At that stage, we’ll probably look forwards to expansion. But space is hard and establishing a human presence in the solar system will require ungodly amounts of energy. Luckily we know where to find it. The Sun- the ultimate source of energy, a furnace 100 quintillion times more powerful than our 
@@ -94,7 +99,8 @@ export const Data = [
   {
     Title: "Fascination At First Sight",
     Author: "Sanjana Dey",
-    BannerURL: "https://source.unsplash.com/mG1jb78EG64/1600x900",
+    Tags: "Wearable Techs",
+    BannerURL: "https://source.unsplash.com/mG1jb78EG64",
     Body: `
     “Innovation is taking two things that exist and putting them together in a new way.“-Tom Freston (born 1945), Co-founder of MTV <br /><br />
     Smartwatches are the new technology that is changing today’s world. The most unique feature of it is that it is wearable and the first of its kind. In the coming days, it will be one of the first affordable, wearable smart gadgets. Gradually, it is changing the way we communicate through its unique and fascinating features. It has already grabbed the attention of a large audience. With each passing day, we are getting to see several impacts of new technology and smart devices around us, which are affecting our daily life, one of them being smartwatches. <br /><br />
@@ -108,7 +114,8 @@ export const Data = [
   {
     Title: "Feel: A Digital Therapeutic Solution for Mental Health",
     Author: "Nikita Farhin",
-    BannerURL: "https://source.unsplash.com/pwcKF7L4-no/1600x900",
+    Tags: "Future Techs",
+    BannerURL: "https://source.unsplash.com/pwcKF7L4-no",
     Body: `
     Mental illnesses affect 19% of the adult population, 46% of teenagers, and 13% of children each year. People struggling with their mental health may be in our family, living next door, or in our workplaces. However, only half of those affected receive treatment, often because of the stigma attached to mental health. Untreated, mental illness can contribute to higher medical expenses, poorer performance at school and work, fewer employment opportunities, and increased risk of suicide.<br /><br />
     It's very important to remember that just because one may not know exactly what causes someone to experience a mental health problem, this doesn't mean that it is any less serious than any other illness, any less deserving of recognition and treatment, or any easier to recover from. Most potential mental health problems will not become mental health problems if one response to them early. <br /><br />
@@ -124,7 +131,8 @@ export const Data = [
   {
     Title: "HEART AND SOULS: A Startup Idea",
     Author: "Arnab Mukherjee ",
-    BannerURL: "https://source.unsplash.com/ResjcGoMRRI/1600x900",
+    Tags: "Startup & Innovation",
+    BannerURL: "https://source.unsplash.com/ResjcGoMRRI",
     Body: `
       What does a startup mean? Literally, it means starting something. Right? Now the question arises, starting something for what? Here comes the idea of <strong>entrepreneurship</strong>. ‘Entrepreneurship’, the word itself is a kind of a mystery to some of us. So, let me start this with a story. That will be more interesting, I guess.<br /><br />
       There’s a story of two friends Ajay and Bhuvan. The time I am talking about was not so popular for sports back then. They both were working for a local factory. But since school days they were interested in sports, especially football. Unfortunately for their family conditions, they couldn’t continue their passion after school. With life, everything changed, and could not step back into their dreams ever. The matches they watched were all flashing upon their memories. Making goals or saving them, penalty-attacks of all legends like Sunil Chhetri, Messi, Ronaldo, Maradona, Pele, and who was not!!<br /><br />
@@ -140,7 +148,8 @@ export const Data = [
   {
     Title: "How engineers can be great entrepreneurs",
     Author: "Shrijita Som",
-    BannerURL: "https://source.unsplash.com/sMKUYIasyDM/1600x900",
+    Tags: "Careers",
+    BannerURL: "https://source.unsplash.com/sMKUYIasyDM",
     Body: `
       MBA after B. Tech is a common trend nowadays and we can see a lot of engineers having their start-ups at some points of their lives. While the hype of taking up Engineering after 10+2 is much more than the rate of placements in that branch, having an Engineering degree as an entrepreneur can be really beneficial sometimes.<br /><br />
       Here’s a list of 6 reasons Engineers are naturally more likely to tackle their start-up hassles more proficiently.<br /><br />
@@ -158,7 +167,8 @@ export const Data = [
   {
     Title: "Job or start-up- things you need to know before you graduate",
     Author: "Shrijita Som",
-    BannerURL: "https://source.unsplash.com/MYbhN8KaaEc/1600x900",
+    Tags: "Careers",
+    BannerURL: "https://source.unsplash.com/MYbhN8KaaEc",
     Body: `
       Regular 9- job sounds pretty boring, right? But it is as much alluring too, towards a safe and secured future. On the other hand, start-up has the spark in their name, with all the excitement, independence. But at the same time it is not it is very hard to pull off with no guarantee in your income.
       Before choosing any of these, you must think it through and analyze yourself. <br /><br />
@@ -188,7 +198,8 @@ export const Data = [
   {
     Title: "Mistakes Start-ups make",
     Author: "",
-    BannerURL: "https://source.unsplash.com/UN4PadDppAU/1600x900",
+    Tags: "Startup & Innovation",
+    BannerURL: "https://source.unsplash.com/UN4PadDppAU",
     Body: `
       Planning startups is not easy. A start-up needs nourishment and careful thinking from its owner to flourish into a successful one. That said, it also involves taking essential risks. There are a lot of things to think about and a lot of decision making goes into it. To add to it, comes the pressure. The pressure of making decisions quite integral to the company. The pressure of knowing how adversely a bad decision could jeopardize the company’s growth. <br /><br />
       However, there is no plan that is 100% effective. But, there are certain mistakes people tend to make which have a negative impact on their businesses. <br /><br />
@@ -219,7 +230,8 @@ export const Data = [
   {
     Title: "Moving Towards a Self Driving Immaculate Future ",
     Author: "Soumyadip Sengupta",
-    BannerURL: "https://source.unsplash.com/4xM5cytsdMo/1600x900",
+    Tags: "Transport Techs",
+    BannerURL: "https://source.unsplash.com/4xM5cytsdMo",
     Body: `
       Automated technology is already a part of our daily lives. Now, what if we can blend in the idea of automation with green mobility ?? <br />
       To most of us, electric cars can seem so modern and exotic. In truth, electric cars are older than internal combustion vehicles. <br />
@@ -245,8 +257,9 @@ export const Data = [
   },
   {
     Title: "Myths and reality of start-ups",
-    BannerURL: "https://source.unsplash.com/Y_LgXwQEx2c/1600x900",
+    BannerURL: "https://source.unsplash.com/Y_LgXwQEx2c",
     Author: "Shrijita Som",
+    Tags: "Startup & Innovation",
     Body: `
       For most of us, ‘following our passion’ has a different name - ‘start-up’. 
       Being able to work on our own without anyone ruling over us is fascinating no doubt. And if doing what you love can be the source of your income, nothing can be better. <br /><br />
@@ -305,7 +318,8 @@ export const Data = [
   {
     Title: "Skills you need as an entrepreneur",
     Author: "Shrijita Som",
-    BannerURL: "https://source.unsplash.com/s9CC2SKySJM/1600x900",
+    Tags: "Startup & Innovation",
+    BannerURL: "https://source.unsplash.com/s9CC2SKySJM",
     Body: `
       For most of us, “Entrepreneur” is a dream-come-true occupation. They seem to be the magician by how delicately they can handle all the work-pressure, market condition and people. <br /><br />
       There are some skills that are common in every successful entrepreneurs out there. If you aspire to be one, it is high time to work on those skills so you can face less hazard in your start-up. <br /><br />
@@ -340,7 +354,8 @@ export const Data = [
   {
     Title: "Story Of Airbnb - A Lucrative Expedition ",
     Author: "Rupanjana Ganguly",
-    BannerURL: "https://source.unsplash.com/so3wgJLwDxo/1600x900",
+    Tags: "Startup Stories",
+    BannerURL: "https://source.unsplash.com/so3wgJLwDxo",
     Body: `
     The Airbnb foundation story is one of the most inspiring stories of the 21st century. From selling  cereals to being a 25 billion dollar company, the makers and the people behind the foundation of  
     this huge multinational chain have definitely come a long way through. It all started when Brian  Chesky and Joe Gebbia just moved from New York. Without employment, they were finding difficulty  
@@ -365,7 +380,8 @@ export const Data = [
   {
     Title: "Technical developments you can expect to see in the next decade",
     Author: "Shrijita Som",
-    BannerURL: "https://source.unsplash.com/p0j-mE6mGo4/1600x900",
+    Tags: "Future Tech",
+    BannerURL: "https://source.unsplash.com/p0j-mE6mGo4",
     Body: `
       Most of the popular social media platforms today were not even invented just two decades ago! So many of us did not have access of the internet at the start of the previous decade (2010’s).<br /><br />  
       It is amazing to observe how the technology is advancing at lightning speed and changing the course of our lives. We are all eager to know which technical development will come next to upgrade our lives in this decade. Let us see which are the top 10 probable development we can safely assume to see by the end of this new decade -<br /><br />  
@@ -398,9 +414,9 @@ export const Data = [
   },
   {
     Title: "VR - How It can impact our lives",
-    BannerURL: "https://source.unsplash.com/AHCmAX0k_J4/1600x900",
+    BannerURL: "https://source.unsplash.com/AHCmAX0k_J4",
     Author: "",
-    Type: "TECHNOLOGY",
+    Tags: "Future Tech",
     Body: `
       Visual reality is the new craze for our generation. Whoever ever watched a VR movie or played a VR game knows that.<br /><br />
       With every passing day, coders are discovering new ways to explore it and newer sectors to apply VR. Take a peek to know how you can expect this awesome technology to change your reality you have always seen!<br /><br />
