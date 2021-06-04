@@ -33,7 +33,7 @@ function Article() {
   const bannerStyle = {
     width: "100%",
     height: "60vh",
-    backgroundImage: `url(${bgURL})`,
+    backgroundImage: `url(${bgURL}/1600x900)`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
