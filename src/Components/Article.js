@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../Images/iic-blog-1.png"
+import logo from "../Images/iic-blog-1.png";
 import {
   Grid,
   Typography,
@@ -7,7 +7,7 @@ import {
   useMediaQuery,
   Zoom,
 } from "@material-ui/core";
-import { useParams , Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Data } from "./DataArray";
 import "./Article.css";
 import { grey } from "@material-ui/core/colors";
@@ -40,53 +40,77 @@ function Article() {
   };
   const [Animate] = useState(true);
   return (
-      <>
+    <>
       <div className="navArticle">
-            <Link to="/" >
-                <img src={logo} className="articleLogo" alt="default text" style={{ transformOrigin: "left", transform: "scale(0.4)" }}></img>
-            </Link>
-            <div className="socialMediaA" style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-around"
-            }}>
-                <a href="https://www.facebook.com/iictmsl/" target="_blank" rel="noreferrer">
-                    <img src={facebook} width="20px" height="20px" alt="facebook"></img>
-                </a>
-                <a href="https://twitter.com/iictmsl" target="_blank" rel="noreferrer">
-                    <img src={twitter} width="20px" height="20px" alt="twitter"></img>
-                </a>
-                <a href="https://www.instagram.com/iictmsl/" target="_blank" rel="noreferrer">
-                    <img src={insta} width="20px" height="20px" alt="insta"></img>
-                </a>
-                <a href="https://www.linkedin.com/company/iictmsl/" target="_blank" rel="noreferrer">
-                    <img src={linkedin} width="20px" height="20px" alt="linkedin"></img>
-                </a>
-                <a href="/" target="_blank" rel="noreferrer">
-                    <img src={utube} width="20px" height="20px" alt="facebook"></img>
-                </a>
-            </div>
+        <Link to="/">
+          <img
+            src={logo}
+            className="articleLogo"
+            alt="default text"
+            style={{ transformOrigin: "left", transform: "scale(0.4)" }}
+          ></img>
+        </Link>
+        <div
+          className="socialMediaA"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-around",
+          }}
+        >
+          <a
+            href="https://www.facebook.com/iictmsl/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={facebook} width="20px" height="20px" alt="facebook"></img>
+          </a>
+          <a
+            href="https://twitter.com/iictmsl"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={twitter} width="20px" height="20px" alt="twitter"></img>
+          </a>
+          <a
+            href="https://www.instagram.com/iictmsl/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={insta} width="20px" height="20px" alt="insta"></img>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/iictmsl/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} width="20px" height="20px" alt="linkedin"></img>
+          </a>
+          <a href="/" target="_blank" rel="noreferrer">
+            <img src={utube} width="20px" height="20px" alt="facebook"></img>
+          </a>
+        </div>
       </div>
-    <Zoom in={Animate} timeout={1000}>
-      <div className={classes.root}>
-        <Grid container spacing={1}>
-          <div style={bannerStyle} className={classes.banner}>
-            <Grid
-              container
-              direction="column"
-              justify="center"
-              alignItems="center"
-              className={mediaQuery ? classes.tint : classes.tintM}
-            >
-              <Typography variant="h4" className={classes.title}>
-                {article().Title}
-              </Typography>
-              <Typography variant="body1" className={classes.author}>
-                - {article().Author}
-              </Typography>
-            </Grid>
-          </div>
-          {/* <Grid item xs={12}>
+      <Zoom in={Animate} timeout={1000}>
+        <div className={classes.root}>
+          <Grid container spacing={1}>
+            <div style={bannerStyle} className={classes.banner}>
+              <Grid
+                container
+                direction="column"
+                justify="center"
+                alignItems="center"
+                className={mediaQuery ? classes.tint : classes.tintM}
+              >
+                <Typography variant="h4" className={classes.title}>
+                  {article().Title}
+                </Typography>
+                <Typography variant="body1" className={classes.author}>
+                  - {article().Author}
+                </Typography>
+              </Grid>
+            </div>
+            {/* <Grid item xs={12}>
           <Typography variant="h6" className="Articletitle">
             {article().Title}
           </Typography>
@@ -97,18 +121,18 @@ function Article() {
             - {article().Author}
           </Typography>
         </Grid> */}
-          <Grid item xs={12} className={classes.body}>
-            {/* Setting inner HTML treating article.Body as a HTML document. */}
+            <Grid item xs={12} className={classes.body}>
+              {/* Setting inner HTML treating article.Body as a HTML document. */}
 
-            <Typography
-              className={mediaQuery ? classes.content : classes.contentM}
-              variant="subtitle2"
-              dangerouslySetInnerHTML={{ __html: article().Body }}
-            />
+              <Typography
+                className={mediaQuery ? classes.content : classes.contentM}
+                variant="subtitle2"
+                dangerouslySetInnerHTML={{ __html: article().Body }}
+              />
+            </Grid>
           </Grid>
-        </Grid>
-      </div>
-    </Zoom>
+        </div>
+      </Zoom>
     </>
   );
 }

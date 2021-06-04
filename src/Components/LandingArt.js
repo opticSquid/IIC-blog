@@ -50,7 +50,7 @@ const HomePage = () => {
       {!mobile && (
         <img
           className="background"
-        //   https://source.unsplash.com/AHCmAX0k_J4/900x400
+          //   https://source.unsplash.com/AHCmAX0k_J4/900x400
           src={`${Data[randomArticleIndex].BannerURL}/900x400`}
           alt="back Ing"
         ></img>
@@ -122,7 +122,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="container">
-      {/* https://source.unsplash.com/AHCmAX0k_J4/480x300 */}
+        {/* https://source.unsplash.com/AHCmAX0k_J4/480x300 */}
         <img
           className="poster"
           src={`${Data[randomArticleIndex].BannerURL}/480x300`}
@@ -132,7 +132,7 @@ const HomePage = () => {
         <div className="data">
           <p className="type">{Data[randomArticleIndex].Tags}</p>
           <p className="title">{Data[randomArticleIndex].Title}</p>
-          <p className="info" dangerouslySetInnerHTML={{__html:body}} />
+          <p className="info" dangerouslySetInnerHTML={{ __html: body }} />
           <p className="author">{Data[randomArticleIndex].Author}</p>
           <p className="date">
             {getMonthName(currentDate.getMonth())}&nbsp;
