@@ -449,4 +449,171 @@ export const Data = [
 
     `,
   },
+  {
+    Title: "Fundamental Strategies Of Business Development",
+    BannerURL: "https://source.unsplash.com/wD1LRb9OeEo",
+    Author: "Anushka Mukherjee",
+    Tags: "Startup & Business",
+    Body: `<strong>What is Business Development?</strong>
+    <p>In simple terms, business development can be summarized as ideas, plans, and activities that help to make a business better. These include rising revenue, growth in terms of business expansion, making strategic business decisions, increasing profits by building strategic and collaborative partnerships.</p>
+    ● <strong>Job Titles which are often heard in a Business Organization / Business World  :</strong>
+    <ul>
+    <li>Business Development Executive</ li>
+    <li>Manager of Business Development</ li>
+    <li>Chief Executive officer</ li>
+    <li>Chief Marketing Officer</ li>
+    <li>Director of Software Development</ li>
+    <li>Business Analyst</ li>
+    <li>Financial Analyst</ li>
+    <br/>
+    and many more.
+    </ul>
+    ● <strong>Key Points Under Business Development</strong>
+    <ul>
+    <li>Business development includes a list of ideas, activities, and programs that the business owner and management use to improve the business.</li>
+    <li>Business development can include many goals, such as sales growth, business expansion, strategic partnership, and increased profitability.</li>
+    <li>The ability to connect with customers and build meaningful relationships. Get to know different kinds of clients, if they want to work with you</li>
+    <li>Product Partnerships and new sales channel development play a vital role.</li>
+    <li>Successful business development affects all departments in the company including sales, finance, manufacturing, accounting, marketing, product development, and employees.</li>
+    </ul>
+    ● <strong>Research And Development ( R & D in business )</strong>
+    <p>
+    Research and development is a generation of new knowledge. In the case of a business, it is the companies responsibility to create new products, processes or services, or to improve the existing ones. To do this, businesses tend to put themselves at risk. This is because uncertainty is all around us. And Business is all about risk and uncertainty.
+    
+    Research and Development is an important tool for many businesses. The introduction of new offerings or existing improvements is a way for the business to continue and to compete and make a profit.
+    
+    When developing a new product, process or service, or existing filter, research and development are one of the first stages. Designing and inventing new things is common at this stage, as well as risks. The research and development cycle usually begins with ideas, followed by research and testing, and then construction.</p>
+    
+    ● <strong>Collaborative Strategies</strong>
+    
+    <p>When team members get to know each other better, they can communicate and work together better. These collaborative approaches help the Business organization to grow progressively. When people feel free to communicate and express their opinions, they are more productive. On other hand With the help of legal and financial teams, the business development team evaluates all available options and selects the one that works best for the business.</p>
+    
+    ● <strong>Profit Development Strategies</strong>
+    
+    <p>Once you have identified and evaluated your major drivers, you should develop self-improvement strategies, without increasing costs. Making your business more profitable involving looking at ways to increase sales revenue and reduce your costs and mark your business to see where you can save money.
+    
+    You should always prioritize the strategies you have chosen to improve your profits so that you can focus on what is most important and achieve your goals.</p>
+  
+    ● <strong>Conclusion</strong>
+    
+    <p>Succeeding in sustainable business practices often requires entrepreneurship skills and innovation. Communication skills also play a vital role in sustainable businesses. The importance of business and creativity construction applies to companies that change the way they produce products and services. These latest companies can use new business models to establish a brand name and become market leaders in doing things that create a shared value for the community and their companies and, over time, contribute to changing trends in their industry.</p>
+    `,
+  },
+  {
+    Title: "Financial Literacy",
+    BannerURL: "https://source.unsplash.com/dAmHWsRYP9c",
+    Author: "Sohini Ghosh",
+    Tags: "Finance",
+    Body: `<div>Ever seen a donkey carrying a load ??</div>
+    <div>Its owner lures it with a carrot and the donkey chases the illusion. The owner reaches his destiny, and it's another carrot for the donkey.</div>
+    <div>The donkey here represents all who work for earning money, and its owner is someone who makes money.</div>
+    <p>A mansion or a Cadillac is not the measure of how rich you are, it's the desire and passion to make money that makes you rich. It's how fast you can make a decision, it takes minutes on the internet, seconds for deals to come and go, and stock market trades are fixed within milliseconds. In these times of fast-moving fashion, hard work doesn't pay off, it’s all about smart work. Taking up a job or starting your own business whatever you choose, the roots of your financial education must be in-depth. It is not something we learn at our schools, it is what life teaches us. When it comes to matters regarding money the emotion which drives most of us is fear of risk. This fear of risking is most of the time greater than their passion. You do not have to be knowledgeable you just have to be bold to take the risk. What must you avoid for developing financial independence?</p>
+    
+    <h2><strong>Fear</strong></h2>
+    <p>It is an emotion which most of us deny initially but for the same individuals, it is the greatest emotion that keeps on pushing them. No one doesn’t fear losing money. But it's not the fear, it's the way how you manage fear and overcome it. If you want to win big you must risk big and sometimes lose big, but the loss must come as an inspiration.</p>
+    
+    <h2><strong>Laziness</strong></h2>
+    <p>Every time you say you can't afford something, it's you being lazy because there's nothing humans can't do. A little greed and ambition are sometimes good in your development and growth. Create your solutions to the financial problems and rise above the social dogma of guilt.</p>
+    
+    <h2><strong>Ignorance</strong></h2>
+    <p>Ignorance is bad only when you let it sit and grow. If you try to educate yourself for your ignorance you learn something new. At every instance when arrogance hits, investors lose money. It's their mindset that something that they don't know is not worthy of knowing.</p>
+    
+    
+    <h2><strong>Criticism</strong></h2>
+    <p>Stop being a cynic, do not let your doubts and fears control you, analyze the criticism and make it work for your better.</p>
+    
+    <h3><i>Coming to the DOs for gaining financial stability-</i></h3>
+    <ol>
+    <li><strong>Start investing early.</strong> Whether you take up a job or start your own business, you must start investing in assets. Something which is going to earn for you and pay for your luxuries.</li>
+    
+    <li><strong>How much money you keep.</strong> It is not the fact that you earn or are professionally excelling, it's how much you keep. One can earn lots of money and still suffer to make ends meet due to the lack of assets, which brings me to my next point.</li>
+    
+    <li><strong>Build your asset column.</strong> Very simply if I tell you asset is something that makes you money, and the handling of the assets and liabilities is what builds our social status. Feed the asset column and it's gonna feed your generations to come.</li>
+    
+    <li><strong>Learn something new.</strong> Now and then we hear people say to do what you enjoy, what your heart desires, but how many of us do that!? It's all about caring for what interests us and only then are we going to invest and enjoy doing it.</li>
+    </ol>
+    <p>In the end, it's you who is going to have to rise above your doubts and fears to attain your financial strength. The cultural dogma that runs deep in our society and which makes us believe that love for money is the root of all evil. We must break apart from all that holds us back and start investing smartly.</p>
+    `,
+  },
+  {
+    Title: "E-learning – essential or vogue",
+    BannerURL: "https://source.unsplash.com/4-EeTnaC1S4",
+    Author: "Soumyadip Sengupta",
+    Tags: "EdTech",
+    Body: `<div>Whether you’re a content creator looking for an online course platform to sell courses, or a student looking to learn from online courses, searching for the best online course platforms in recent times is indeed a hectic task. Education has changed dramatically, with the distinctive rise of e-learning, whereby teaching is undertaken remotely and on digital platforms.</div>
+    <div>But why is E-learning on the hype now ?? For that, let’s first know what exactly is an eLearning platform in technical terms!</div>
+    <p>An online learning platform is an integrated set of interactive online services that provide trainers, learners, and others involved in education with information, tools, and resources to support and enhance educational delivery and management. One type of eLearning platform is a learning management system (LMS). The purpose of a successful eLearning platform is that it creates a robust learning experience that feels like a classroom experience, offering the traditional classroom characteristics (like instructor-student interaction, Q&As, discussion, games, collaborative projects, quizzes, etc.) but either online or through a device (e.g. a laptop, desktop, tablet or mobile.) These important learning environments are achieved through a learning platform’s features and tools that create the level of interaction and engagement students need.</p>
+    <p>There are many eLearning companies out there that offer learning platforms. Some of these platforms allow you to host and sell online courses, allowing you to run your own business. Other platforms simply offer an interface in which users can interact with your content, but might not be the best fit for your audience.</p>
+    <div>Now how to choose an eLearning platform? Or how do you decide which platform is the best to host your training courses?</div>
+    <div>For that, knowing what makes good e-learning and course builder platforms should be one’s topmost priority.</div>
+    <ol>
+    <li>E-learning platform- An Efficient Learning Management System is necessary for every learner to boost their performance level and knowledge-retention levels. LMS options can be assessed based upon –
+    <ul>
+    <li>What are your learner’s needs?
+    <br/>
+    Learners are the central, focal point of a training program.
+    Depending on industry and business objectives, one will want an LMS that offers features that address the learners’ needs.</li>
+    <li>Is your LMS Mobile-Friendly?
+    <br/>
+    No matter the industry, learners prefer to have accessibility to training content on-the-go, so that they can have complete flexibility in their self-learning cycle. One wants to make sure that the LMS that he/she chooses is compatible with mobile phones.</li>
+    <li>Does your LMS offer integrations with features and systems?<br/>
+    An LMS feature that simplifies the user experience is the Single-sign-on (SSO).  This feature allows the user to access other applications with the same credentials, without repeatedly logging in credentials on different apps within the same LMS. This is required.</li>
+    <li>Is your LMS reliable and secure?<br/>
+    One of the more important details to pay attention to when choosing an LMS is how it handles sensitive information. A security breach could cost an organization its reputation and brand image. Ensuring that the LMS has the right security protocols, firewalls and SSL is vital in protecting your content and user’s personal data.</li>
+    </ul>
+    </li>
+    <li>Course builder platform – A Course Builder can help you create and deliver online lessons for universities, professional training, or corporate products.  Following are a few things that may affect your ability to build better courses and grow your business over time.
+    <ul>
+    <li>Course building features<br/>
+    Different learning management systems (LMS) offer different course creation features. For instance, one may want to give assignments to students, create quizzes, or offer multiple payment methods.</li>
+    <li>Payment solutions<br/>
+    You may also want to make sure that they offer payment solutions that are affordable for you as a business owner.</li>
+    <li>Integrations</br>
+    Integrations help you connect your online courses to third-party platforms and marketing automation tools. For instance, you may want to connect it with your email marketing service, social media marketing tool, or your CRM software.</li>
+    <li>Flexibility and Freedom<br/>
+    Many online course platforms may have terms and conditions that may affect your business. Some platforms compromise on flexibility for ease of use, which means you have less control over your courses, and you cannot add new customization/features to your course.</li>
+    <li>Ease of use and support<br/>
+    As a course creator and entrepreneur, you want to choose a course builder that is easy for you to use. It should come with customizable templates, work with your website, and offer good customer support. You also want to make sure that it is user-friendly for your students and customers too.</li>
+    </ul>
+    </li>
+    </ol>
+    <p>Some top eLearning platforms include WizIQ, iSpring, Academy of Mine, Udemy, Coursera, LinkedIn Learning, Skillshare, etc.. and some top course marketplace in recent times include LearnDash, Teachable, Thinkific LifterLMS, WooCommerce,  Kajabi, Podia, LearnWorlds, etc. All platforms have some pros and some cons. Whatever profession you are in, whether you’re a student looking for the best online learning platform to expand your skills or you are searching for an online platform to build and sell courses and grow your business without spending a fortune, the aforementioned points that have been discussed should always play a distinctive role in the selection. The discussion has been made to help avoid choice paralysis and thereby save the price of time.</p>
+    
+    <p>With the new technologies available to us today, the term E-Learning has come to be all-inclusive of any instruction delivered using technology. Today E-Learning encompasses many technologies used for training and instruction. Simulations, gaming, mobile devices, GPS technologies, and many more can be used for the development of E-Learning experiences. They can also be blended, creating a multimedia learning experience.</p>
+    `,
+  },
+  {
+    Title: "HUMANS RELATION WITH TECHNOLOGY ",
+    BannerURL: "https://source.unsplash.com/SYTO3xs06fU",
+    Author: "Abhinav Singh",
+    Tags: "Future Technology",
+    Body: `<div>What is a human being? What is their culture? What is their identity? How they are connected to modern technology? How do they differ from animals? These are the few questions that need a deep investigation and conceptualized understanding of human culture about technology. It has to be analyzed, keeping in mind the other framework such as classical ontology, economy, phenomenology, existentialism.</div>
+ 
+    <p>Great analysts of the twentieth century said that technology plays an important role in shaping human behavior from time to time. It’s like a track which gets updated every time and human switch from one technology to other with time as per the advancement. In our modern civilization, technology microscope and MRI scan have become an effective tool in analyzing and diagnosis. So, technology has also born on our view of things.</p>
+     
+    <div>This blog focuses on how with the changing time technology influences and constitutes human culture and existence. In this context, we will also discuss how the boundary between traditional design and use has faded by the involvement of technology in human civilization. The rapid development of the mind and body of humans with the development of technology has influenced self-consciousness, autonomy, and racialism which is also an important part of the interaction of man and technology.</div>
+    <h3><strong>OVERVIEW:</strong/></h3> 
+    <p>In the last few decades, technology has progressed at a staggering rate. Smartphones, the internet, cloud computing, and hundreds of other inventions are changing every facet of our lives. 
+    Communication, business, government, travel, fundraising, and even agriculture have been affected. But how about our brains? Is all this new technology changing us on the inside? Many think so, including psychology professionals.</p>
+     
+    <div>As Psychology Today says, “There is … little doubt that all of the new technologies, led by the Internet and digital technology, are shaping the way we think in ways obvious and subtle, deliberate and unintentional, and advantageous and detrimental.”* While research into this field is still in its infancy and there are no scientifically agreed-upon conclusions, there are several areas where modern digital technology is certainly affecting the way we interact with the world and the way our children’s brains develop. These areas include:</div>
+     <ul>
+    <li>Attention<br/> 
+    Evidence suggests that the constant use of technology is shortening our attention span. Nowadays people use most of their time in these electronic gadgets like smartphones etc. Spending time playing games, listening to music, browsing, chatting has made our mind narrow and the capacity of focusing on any particular task gets hampered. Students can’t concentrate on their studies, job seekers can’t refine their skills as per the requirement. Their persistence capacity is reducing day by day. They get distracted very soon with any notification on their smartphones.</li> 
+     
+    <li>Decision Making<br/>
+    The capacity of a man to think and take action is the most important feature that differentiates a human being from an animal. But, this characteristic of a man is fading with time. Instead of analyzing, thinking about the consequences, people tend to feel much comfortable in solving their queries online. Earlier, people use to take advice from their elders who already had gained knowledge by their experience but today that ‘network building’ capacity is reducing rapidly. Remember that a place of a doctor can never be overtaken by a machine. The doctor analyses and interprets the patient’s condition and by his knowledge and experience treats them accordingly. Overall, it is clear that one must not depend too much on technology for decision-making and analysis as humans are the creator of technology, not machines.</li> 
+     
+    <li>Distraction<br/>
+    Concentration is always the opposite of distraction. Although technology has its boon, excessive use and its addiction can become one of the causes of distraction. 
+     
+    Particularly, students who have made phones their best friends. It became the main cause behind most of their devastation. They waste their time using the internet. Once their phones give a tweet tweet notification tone they forget all their work and give a dive in the ocean of distraction. As a student, they have a duty towards themselves. They must use the internet to the fullest to gain knowledge and wisdom and not for their failure. Serving unwanted sites, vulgar content can ruin the mental capacity and strength.</li> 
+     
+    <li>Relationship Building<br/>
+    There was a time when people use to spend their time sharing their thoughts, their life happening with their fellow men. Family played an important role for them. But, today we humans keep ourselves busy with technology. We rarely have time to spend with our family. Even if we are doing, we keep ourselves indulge in the internet. We often miss the present and memorable moments of our life with our friends and family by keeping ourselves busy in the online world. Never involve yourself too much in technology as it can ruin your relationship very badly.</li> 
+     
+    <h3><strong>Conclusion:</strong></h3> 
+    <p>Understanding the concept and need of technology will broaden our minds and bring us closer to the world. It will enlighten our basic knowledge be it in any field ‘health’, ‘career’, ‘job’, ’development’, ‘education’ etc. Just as a coin has two different phases, in the same way everything and anything has its boon as well as a curse. It depends on the person how and for what purpose he or she is using it. Keeping in mind the above statement; Technology can also build the world or destroy the world.</p>
+    `,
+  },
 ];
