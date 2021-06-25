@@ -197,7 +197,7 @@ export const Data = [
   },
   {
     Title: "Mistakes Start-ups make",
-    Author: "",
+    Author: "Ayushi Dey",
     Tags: "Startup & Innovation",
     BannerURL: "https://source.unsplash.com/UN4PadDppAU",
     Body: `
